@@ -1,0 +1,17 @@
+//This code use for generate multiplication table.
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int number;
+    cout<<"Which number multiplication table do you want ? \n";
+    cin>>number;
+
+    cout<<"Your Multiplication table is : \n\n";
+
+    for( int i = 1; i <=10; i ++)
+    {
+        cout<<number<<" * "<<i<<" = "<<i*number<<endl;
+    }
+}
